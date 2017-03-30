@@ -1,0 +1,11 @@
+<root>
+    <about version="1.0" author="nevaryyy"/>
+    <permissions>
+        <permission name="android.permission.CAMERA" zh_name="照相机" />
+        <permission name="android.permission.READ_CONTACTS" zh_name="读取联系人" />
+        <permission name="android.permission.READ_PHONE_STATE" zh_name="读取手机状态" />
+        <permission name="android.permission.CALL_PHONE" zh_name="拨打电话" />
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" zh_name="读取手机存储文件" />
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" zh_name="写入手机存储文件" />
+    </permissions>
+</root>

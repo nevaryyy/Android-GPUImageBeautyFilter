@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nevaryyy.beautyfilterdemo.main.MainActivity">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/glsv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/ib_main_magic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:background="@null"
+        android:src="@mipmap/magic"/>
+
+    <ImageButton
+        android:id="@+id/ib_main_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:background="@null"
+        android:src="@mipmap/switch_camera"/>
+
+</FrameLayout>

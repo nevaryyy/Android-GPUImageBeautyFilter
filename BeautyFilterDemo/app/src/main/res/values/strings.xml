@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BeautyFilterDemo</string>
+
+    <string name="comma">，</string>
+    <string name="period">。</string>
+
+    <string name="dialog_no_camera_permission_message">无法获取您的摄像头数据。请到“设置-应用-权限”里开启摄像头权限，以正常使用摄像头功能。</string>
+    <string name="dialog_no_permission_title">无权限</string>
+    <string name="dialog_need_permission_title">您需要以下权限：</string>
+    <string name="grant">允许</string>
+    <string name="deny">拒绝</string>
+    <string name="goto_settings">去设置</string>
+    <string name="cancel">取消</string>
+
+</resources>
